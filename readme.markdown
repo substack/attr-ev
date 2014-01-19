@@ -22,7 +22,16 @@ var elems = document.querySelectorAll('*[x-click]');
 for (var i = 0; i < elems.length; i++) aev(elems[i]);
 ```
 
-or with [attractor](https://npmjs.org/package/attractor):
+compile with [browserify](http://browserify.org):
+
+```
+browserify browser.js > bundle.js
+```
+
+then open `index.html` in a browser.
+
+You can also use this module with with
+[attractor](https://npmjs.org/package/attractor):
 
 ``` js
 var scope = {
