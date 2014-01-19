@@ -30,7 +30,7 @@ browserify browser.js > bundle.js
 
 then open `index.html` in a browser.
 
-You can also use this module with with
+You can also use this module with
 [attractor](https://npmjs.org/package/attractor):
 
 ``` js
